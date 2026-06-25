@@ -1,0 +1,47 @@
+[Uploading index---
+title: "Evelia Coss"
+image: "yo_azul.jpg"
+links:
+  - label: '`r fontawesome::fa(name = "linkedin", fill = "steelblue")` LinkedIn'
+    url: "https://www.linkedin.com/in/evelia-lorena-coss-navarrete-562226229/"
+  - label: '`r fontawesome::fa(name = "twitter", fill = "steelblue")` Twitter'
+    url: "https://twitter.com/EveliaCoss/"
+  - label: '`r fontawesome::fa(name = "github", fill = "steelblue")` Github'
+    url: "https://github.com/EveliaCoss/"
+  - label: '`r fontawesome::fa(name = "researchgate", fill = "steelblue")` ResearchGate'
+    url: https://www.researchgate.net/profile/Evelia-Coss-Navarrete  
+  - label: '`r fontawesome::fa(name = "envelope", fill = "steelblue")` Mail'
+    url: "mailto:ecossnav@gmail.com"
+  - label: '`r fontawesome::fa(name = "user", fill = "steelblue")` CV'
+    url: "https://eveliacoss.github.io/CV/cv_ECoss.html"
+output:
+  postcards::jolla
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+#### **Bio** 
+
+I am interested in gene regulation, lncRNAs, autoimmune disease, evolution and bioinformatics.
+
+Founding member of VieRnes de Bioinformatica en el LIIGH (bioinformatics fridays at @[LIIGH-UNAM](https://twitter.com/LIIGH_UNAM)) | web page: <https://viernesbioinformatica.github.io/> | Github: [ViernesBioinfo2023_parte0](https://github.com/EveliaCoss/ViernesBioinfo2023); [ViernesBioinfo2024_parte1](https://github.com/EveliaCoss/ViernesBioinfo2024); [ViernesBioinfo2024_parte2](https://github.com/EveliaCoss/ViernesBioinfo2024_parte2); [ViernesBioinfo2025_parte4](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte4); [ViernesBioinfo2025_parte3](https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte3); [ViernesBioinfo2026_parte5](https://github.com/VieRnesBioinformatica/ViernesBioinfo2026_parte5)
+
+#### **Education**
+
+**Postdoctoral Fellowship** | @[LIIGH-UNAM](https://twitter.com/LIIGH_UNAM) | February 2023 - May 2026
+
+**PhD in Plant Biotechnology** | @[Cinvestav UGA-Langebio](https://twitter.com/uga_langebio), Mexico | August 2018 - January 2023
+
+#### **Experience**
+
+Member of the @[R-ladies Morelia](https://www.facebook.com/profile.php?id=100093337606435), @[RIABIO](https://twitter.com/RiaBioNet), @[CDSB Mexico](https://twitter.com/CDSBMexico) and @[ISCB RSG-Mexico](https://x.com/rsg_iscb_mexico?lang=es).
+
+#### **Repository Contributions**
+
+Webpage [Plants&Python](https://plantsandpython.github.io/PlantsAndPython/00_Opening_page.html) | Github [Plants&Python](https://github.com/PlantsAndPython/PlantsAndPython) | Dr. Daniel H. Chitwood, Dr. Robert VanBuren and Alejandra Rougon-Cardoso
+
+[Transcriptome-guided annotation and functional classification of long non-coding RNAs in Arabidopsis thaliana](https://pubmed.ncbi.nlm.nih.gov/35982083/) | Github [Transcriptome-guided_lncRNA_annotation](https://github.com/RegRNALab/Transcriptome-guided_lncRNA_annotation) | Dr. @[Selene Fernandez-Valverde](https://twitter.com/SelFdz)
+
+.Rmd…]()
