@@ -1,6 +1,6 @@
 ---
 title: "Emiliano Ramírez"
-image: images/IMG_6073.JPG
+image: "images/IMG_6073.JPG"
 links:
   - label: '`r fontawesome::fa(name = "github", fill = "steelblue")` Github'
     url: "https://github.com/emiliano43230-wq"
@@ -14,25 +14,18 @@ output:
 library(fontawesome)
 
 
+---
+
+### 🔑 Los cambios clave que hice
+
+1. **`Images:` → `image:`** : La plantilla `jolla` solo reconoce la clave `image` (en singular y minúscula) para mostrar la foto de perfil[reference:1].
+2. **Ruta de la imagen** : Usé `images/IMG_6073.JPG` para que apunte a la carpeta donde la guardaste. Si la imagen está en la raíz del repositorio, cámbialo a `"IMG_6073.JPG"`.
+3. **Formato de enlaces** : Mantuve la estructura de lista con iconos de Font Awesome, igual que en el ejemplo[reference:2].
 
 ---
 
-### 🔑 Los dos cambios que hice
+### 🚀 Pasos finales para que se vea en tu sitio
 
-1. **`Images:` → `image:`** — es la clave que `postcards::jolla` reconoce para la foto de perfil.
-2. **`IMG_6073.JPG` → `images/IMG_6073.JPG`** — la ruta debe apuntar a donde está la imagen dentro del repo. Si la subiste a la carpeta `images/`, esa es la ruta correcta. Si la subiste a la raíz del repo, déjala como `image: IMG_6073.JPG`.
-
----
-
-### ⚠️ Detalles que pueden hacer que no se vea
-
-- **Ruta relativa al `.Rmd`**: la ruta en `image:` es relativa al archivo `index.Rmd`. Como está en la raíz del repo y la imagen está en `images/`, `images/IMG_6073.JPG` es correcto.
-- **Mayúsculas exactas**: `IMG_6073.JPG` ≠ `img_6073.jpg`. En GitHub Pages (Linux) importan. Verifica con `ls images/`.
-- **Espacios o acentos en el nombre**: si el archivo tuviera espacios, tendrías que escribir `image: "images/mi imagen.jpg"` entre comillas. Aquí no aplica.
-- **Recuerda re-renderizar y subir**: después de editar el `.Rmd`, corre:
-
-  ```bash
-  quarto render index.Rmd
-  git add .
-  git commit -m "Corrige YAML: usa image: con ruta correcta"
-  git push origin main
+1. **Renderiza el archivo** (esto es indispensable, ya que GitHub Pages sirve el HTML generado, no el `.Rmd`):
+   ```bash
+   quarto render index.Rmd
